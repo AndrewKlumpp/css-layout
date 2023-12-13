@@ -1,9 +1,9 @@
 legend {
-  font-size: 24px;
+  font-size: 18px;
   border: 1px solid;
   font-family: Arial, Helvetica, sans-serif;
   padding: 2px;
-  margin-left: 15%;
+  margin-left: 10%;
   color: black;
   background-color: white;
 }
@@ -34,4 +34,19 @@ fieldset {
 .email {
   display: flex;
   flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comments {
+  text-align: left;
+  padding-top: 10px;
+}
+
+button {
+  margin-top: 10px;
 }
